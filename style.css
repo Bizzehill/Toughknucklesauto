@@ -4,11 +4,11 @@
 
 /* ===== CSS VARIABLES (colors, fonts, spacing) ===== */
 :root {
-    --black:      #0D0D0D;
-    --dark:       #1A1A1A;
-    --dark-2:     #242424;
-    --red:        #C8102E;
-    --red-dark:   #A00D25;
+    --black:      #0A1628;
+    --dark:       #0E2340;
+    --dark-2:     #142D54;
+    --red:        #FF1A2E;
+    --red-dark:   #CC1525;
     --white:      #FFFFFF;
     --gray:       #AAAAAA;
     --font-head:  'Barlow Condensed', sans-serif;
@@ -53,7 +53,7 @@ ul { list-style: none; }
     background: var(--red-dark);
     border-color: var(--red-dark);
     transform: translateY(-2px);
-    box-shadow: 0 6px 24px rgba(200, 16, 46, 0.45);
+    box-shadow: 0 6px 24px rgba(255, 26, 46, 0.45);
 }
 .btn-outline {
     background: transparent;
@@ -107,7 +107,7 @@ ul { list-style: none; }
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
-    background: rgba(13, 13, 13, 0.96);
+    background: rgba(10, 22, 40, 0.96);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255,255,255,0.07);
     transition: box-shadow 0.3s ease;
@@ -208,9 +208,9 @@ ul { list-style: none; }
     background-color: var(--black);
     /* Subtle grid texture */
     background-image:
-        linear-gradient(135deg, rgba(200,16,46,0.07) 0%, transparent 55%),
-        repeating-linear-gradient(0deg, transparent, transparent 79px, rgba(255,255,255,0.025) 79px, rgba(255,255,255,0.025) 80px),
-        repeating-linear-gradient(90deg, transparent, transparent 79px, rgba(255,255,255,0.025) 79px, rgba(255,255,255,0.025) 80px);
+        linear-gradient(135deg, rgba(255,26,46,0.07) 0%, transparent 55%),
+        repeating-linear-gradient(0deg, transparent, transparent 79px, rgba(255,255,255,0.04) 79px, rgba(255,255,255,0.04) 80px),
+        repeating-linear-gradient(90deg, transparent, transparent 79px, rgba(255,255,255,0.04) 79px, rgba(255,255,255,0.04) 80px);
     overflow: hidden;
 }
 /* Red accent line at bottom of hero */
@@ -326,7 +326,7 @@ ul { list-style: none; }
     transform-origin: left;
     transition: transform 0.3s ease;
 }
-.service-card:hover { transform: translateY(-5px); border-color: rgba(200,16,46,0.3); box-shadow: var(--shadow); }
+.service-card:hover { transform: translateY(-5px); border-color: rgba(255,26,46,0.3); box-shadow: var(--shadow); }
 .service-card:hover::before { transform: scaleX(1); }
 
 .service-icon { font-size: 2.2rem; margin-bottom: 16px; }
@@ -359,8 +359,8 @@ ul { list-style: none; }
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid rgba(200,16,46,0.25);
-    box-shadow: 0 0 60px rgba(200,16,46,0.08);
+    border: 2px solid rgba(255,26,46,0.25);
+    box-shadow: 0 0 60px rgba(255,26,46,0.08);
 }
 .about-logo { max-width: 280px; width: 100%; }
 
@@ -460,7 +460,7 @@ ul { list-style: none; }
 .form-group textarea:focus {
     outline: none;
     border-color: var(--red);
-    box-shadow: 0 0 0 3px rgba(200,16,46,0.18);
+    box-shadow: 0 0 0 3px rgba(255,26,46,0.18);
 }
 .form-group textarea { resize: vertical; }
 
