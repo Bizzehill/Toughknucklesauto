@@ -423,6 +423,61 @@ ul { list-style: none; }
 
 
 /* ===================================================
+   REVIEW CALL-TO-ACTION
+=================================================== */
+.review-cta {
+    background: var(--red);
+    padding: 80px 24px;
+    text-align: center;
+}
+.review-cta-content {
+    max-width: 680px;
+    margin: 0 auto;
+}
+.review-stars {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+.review-cta h2 {
+    font-family: var(--font-head);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+.review-cta p {
+    color: rgba(255,255,255,0.88);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+.btn-white {
+    display: inline-block;
+    padding: 16px 40px;
+    background: var(--white);
+    color: var(--red);
+    font-family: var(--font-head);
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 2px solid var(--white);
+    transition: var(--ease);
+    text-decoration: none;
+}
+.btn-white:hover {
+    background: transparent;
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.2);
+}
+
+
+/* ===================================================
    CONTACT FORM
 =================================================== */
 .contact { padding: 100px 0; background: var(--dark); }
