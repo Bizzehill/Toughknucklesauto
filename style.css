@@ -4,9 +4,9 @@
 
 /* ===== CSS VARIABLES (colors, fonts, spacing) ===== */
 :root {
-    --black:      #0A1628;
-    --dark:       #0E2340;
-    --dark-2:     #142D54;
+    --black:      #0033FF;
+    --dark:       #0022CC;
+    --dark-2:     #0011AA;
     --red:        #FF1A2E;
     --red-dark:   #CC1525;
     --white:      #FFFFFF;
@@ -107,7 +107,7 @@ ul { list-style: none; }
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
-    background: rgba(10, 22, 40, 0.96);
+    background: rgba(0, 17, 170, 0.97);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255,255,255,0.07);
     transition: box-shadow 0.3s ease;
